@@ -1,0 +1,31 @@
+# --- Python / Streamlit basics ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.ipynb_checkpoints/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Local config & secrets ---
+.env
+*.env
+.streamlit/secrets.toml
+
+# --- Caches / logs ---
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# --- Data we don’t want in git (adjust as needed) ---
+data/last_session.csv
+assets/*.tmp
